@@ -1,4 +1,3 @@
-# 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
 
 from openai import OpenAI
 class Ai:
