@@ -1,3 +1,5 @@
+from ai import Ai
+from sympy import symbols,sympify
 class Converstion:
     def __init__(self):
         ai=Ai()
