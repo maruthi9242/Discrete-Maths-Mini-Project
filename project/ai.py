@@ -3,7 +3,7 @@ from openai import OpenAI
 class Ai:
     def createExpression(self):
         client = OpenAI(
-            api_key="Groq_Api_key",
+            api_key="Groq_Api_Key",
             base_url="https://api.groq.com/openai/v1",
             )
         inp=input("Enter sentence:\n")
@@ -35,10 +35,6 @@ class Ai:
                 model="openai/gpt-oss-20b",
         )
         print(response1.output_text+"\n")
+
         return response.output_text
-
-
-
-
-
 
